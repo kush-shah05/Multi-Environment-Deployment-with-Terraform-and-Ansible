@@ -1,7 +1,7 @@
 # Exclude .terraform directory
 .terraform/
 
-# Exclude Terraform state files
+# Exclude Terraform state and backup files
 *.tfstate
 *.tfstate.backup
 
@@ -11,6 +11,4 @@
 # Exclude sensitive files
 *.key
 *.pem
-
-# Exclude temporary files
 *.tmp
