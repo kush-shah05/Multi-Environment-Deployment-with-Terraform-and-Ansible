@@ -1,7 +1,3 @@
-
-
----
-
 # Terraform and Ansible Infrastructure Project
 
 This repository combines **Terraform** and **Ansible** to provision and configure cloud infrastructure. Terraform handles the infrastructure provisioning, while Ansible is used for post-provisioning configuration and software deployment.
