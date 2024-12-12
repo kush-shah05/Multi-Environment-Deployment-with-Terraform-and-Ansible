@@ -126,5 +126,3 @@ Contributions are welcome! Please open an issue or submit a pull request for imp
 
 **Kush Shah**  
 [GitHub Profile](https://github.com/kush-shah05)
-
----
