@@ -1,9 +1,29 @@
-terraform/.terraform.lock.hcl
-terraform/.terraform.tfstate.lock.info
-terraform/terraform.tfstate
-terraform/terraform.tfstate.backup
-terraform/kush-prac-terra-key
-terraform/.terraform/modules/modules.json
-terraform/.terraform/providers/registry.terraform.io/hashicorp/aws/5.80.0/linux_amd64/terraform-provider-aws_v5.80.0_x5
+# Exclude Terraform state files and backup files
+*.tfstate
+*.tfstate.backup
 
-C:\Users\Kush\OneDrive\Desktop\DevOps2024\Terraform\terraform\.terraform\providers\registry.terraform.io\hashicorp\aws\5.80.0\linux_amd64\terraform-provider-aws_v5.80.0_x5
+# Exclude lock files
+.terraform.lock.hcl
+
+# Exclude the .terraform directory and its contents
+.terraform/
+
+# Exclude SSH keys and private key files
+*.key
+*.pem
+*.pub
+
+# Exclude Terraform crash logs
+crash.log
+
+# Exclude auto-generated variable files
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Exclude temporary or log files
+*.log
+*.bak
+*.tmp
+
+# Exclude specific provider binaries
+terraform/infra/.terraform/providers/
