@@ -1,0 +1,18 @@
+---
+# tasks file for nginx-role
+#
+- name: install nginx
+  apt:
+    name: nginx
+    state: latest
+
+
+- name: enable nginx
+  service:
+    name: nginx
+    enabled: yes
+
+- name: deploy webpage
+  copy:
+    src: index.html
+    dest: /var/www/html

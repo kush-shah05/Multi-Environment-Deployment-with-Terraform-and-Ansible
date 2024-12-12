@@ -1,0 +1,9 @@
+[servers]
+server1 ansible_host=35.183.30.165
+server2 ansible_host=35.182.63.118
+server3 ansible_host=3.99.159.3
+
+[servers:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/home/ubuntu/terra-ansible-multi-env/terraform/kush-prac-terra-key
+ansible_python_interpreter=/usr/bin/python3

@@ -1,0 +1,9 @@
+terraform/.terraform.lock.hcl
+terraform/.terraform.tfstate.lock.info
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/kush-prac-terra-key
+terraform/.terraform/modules/modules.json
+terraform/.terraform/providers/registry.terraform.io/hashicorp/aws/5.80.0/linux_amd64/terraform-provider-aws_v5.80.0_x5
+
+C:\Users\Kush\OneDrive\Desktop\DevOps2024\Terraform\terraform\.terraform\providers\registry.terraform.io\hashicorp\aws\5.80.0\linux_amd64\terraform-provider-aws_v5.80.0_x5
