@@ -1,16 +1,16 @@
-# Exclude .terraform directories
+# Exclude .terraform directory
 .terraform/
 
 # Exclude Terraform state files
 *.tfstate
 *.tfstate.backup
 
-# Exclude provider binaries
-terraform/infra/.terraform/providers/
-
-# Exclude sensitive and temporary files
+# Exclude lock files if not needed
 *.lock.hcl
-*.tfvars
-*.pem
+
+# Exclude sensitive files
 *.key
+*.pem
+
+# Exclude temporary files
 *.tmp
