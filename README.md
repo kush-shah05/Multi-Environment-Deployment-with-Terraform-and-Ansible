@@ -128,5 +128,3 @@ Contributions are welcome! Please open an issue or submit a pull request for imp
 [GitHub Profile](https://github.com/kush-shah05)
 
 ---
-
-Feel free to copy and paste this into your `README.md` file. Let me know if you need further adjustments! 🚀
