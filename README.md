@@ -1,4 +1,4 @@
-Here’s the **README.md** file in a copyable format:
+
 
 ---
 
