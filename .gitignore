@@ -12,4 +12,6 @@
 *.key
 *.pem
 *.tmp
-kush-prac-terra-key
+# Exclude private and public keys
+terraform/kush-prac-terra-key
+terraform/kush-prac-terra-key.pub
