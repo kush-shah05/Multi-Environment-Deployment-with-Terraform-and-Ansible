@@ -1,29 +1,16 @@
-# Exclude Terraform state files and backup files
+# Exclude .terraform directories
+.terraform/
+
+# Exclude Terraform state files
 *.tfstate
 *.tfstate.backup
 
-# Exclude lock files
-.terraform.lock.hcl
-
-# Exclude the .terraform directory and its contents
-.terraform/
-
-# Exclude SSH keys and private key files
-*.key
-*.pem
-*.pub
-
-# Exclude Terraform crash logs
-crash.log
-
-# Exclude auto-generated variable files
-*.auto.tfvars
-*.auto.tfvars.json
-
-# Exclude temporary or log files
-*.log
-*.bak
-*.tmp
-
-# Exclude specific provider binaries
+# Exclude provider binaries
 terraform/infra/.terraform/providers/
+
+# Exclude sensitive and temporary files
+*.lock.hcl
+*.tfvars
+*.pem
+*.key
+*.tmp
