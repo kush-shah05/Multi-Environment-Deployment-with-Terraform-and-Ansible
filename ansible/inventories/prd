@@ -7,3 +7,4 @@ server3 ansible_host=3.99.159.3
 ansible_user=ubuntu
 ansible_ssh_private_key_file=/home/ubuntu/terra-ansible-multi-env/terraform/kush-prac-terra-key
 ansible_python_interpreter=/usr/bin/python3
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'
