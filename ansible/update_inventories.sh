@@ -37,6 +37,7 @@ update_inventory_file() {
     echo "ansible_user=ubuntu" >> "$inventory_file"
     echo "ansible_ssh_private_key_file=/home/ubuntu/terra-ansible-multi-env/terraform/kush-prac-terra-key" >> "$inventory_file"
     echo "ansible_python_interpreter=/usr/bin/python3" >> "$inventory_file"
+    echo "ansible_ssh_common_args='-o StrictHostKeyChecking=no'" >> "$inventory_file"
 
     echo "Updated $env inventory: $inventory_file"
 }
