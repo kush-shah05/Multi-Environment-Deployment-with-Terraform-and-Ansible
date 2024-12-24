@@ -1,6 +1,6 @@
 # Multi-Environment Deployment with Terraform and Ansible
 
-This repository demonstrates a multi-environment deployment strategy using **Terraform** and **Ansible**. Terraform handles the provisioning of cloud infrastructure across different environments (e.g., dev, staging, production), while Ansible is used for post-provisioning configuration and software deployment.
+This repository demonstrates a multi-environment deployment strategy using **Terraform** and **Ansible**. Terraform handles cloud infrastructure provisioning across different environments (e.g., dev, staging, production), while Ansible is used for post-provisioning configuration and software deployment.
 
 ---
 
