@@ -122,7 +122,7 @@ cd Multi-Environment-Deployment-with-Terraform-and-Ansible
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE)
 
 ---
 
