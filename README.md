@@ -58,7 +58,7 @@ Before starting, ensure the following tools are installed:
 
 ## Setup Instructions
 
-### Step 1: Clone the Repository
+### Step 1: Clone the Repository.
 ```bash
 git clone https://github.com/kush-shah05/Multi-Environment-Deployment-with-Terraform-and-Ansible.git
 cd Multi-Environment-Deployment-with-Terraform-and-Ansible
