@@ -52,7 +52,7 @@ Before starting, ensure the following tools are installed:
 - **Terraform**: [Install Terraform](https://www.terraform.io/downloads.html)
 - **Ansible**: [Install Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
 - **AWS CLI**: [Install AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
-- **Git**: [Install Git](https://git-scm.com/downloads)
+- **Git**: [Install Git](https://git-scm.com/downloads).
 
 ---
 
