@@ -11,7 +11,7 @@ module "dev-infra" {
 
 
 
-#prd-infra
+#prod-infra
 # 3 ec2 1 s3 1 dynamo
 module "stg-infra" {
   source = "./infra"
